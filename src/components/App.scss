@@ -1,0 +1,46 @@
+.container {
+  margin: 0 auto;
+  width: 500px;
+
+  form {
+    border: solid 2px black;
+
+    h3 {
+      margin-left: 15px;
+    }
+
+    input {
+      margin-left: 15px;
+      border: solid 1px gray;
+    }
+
+    .addButton {
+      margin: 15px 0 15px 15px;
+      display: block;
+    }
+  }
+
+  .filter {
+    h3 {
+      margin-left: 15px;
+    }
+    input {
+      margin-left: 15px;
+      border: solid 1px gray;
+    }
+  }
+
+  ul {
+    li {
+      margin-bottom: 2px;
+      .number {
+        margin-left: 10px;
+      }
+
+      .removeButton {
+        margin-left: 15px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
