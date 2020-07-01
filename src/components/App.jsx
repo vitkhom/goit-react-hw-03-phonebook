@@ -64,7 +64,7 @@ class App extends Component {
   };
 
   saveData = () => {
-    localStorage.setItem('phonebook', JSON.stringify(this.state.contacts));
+    localStorage.setItem('phonebook', JSON.stringify(this.state));
   };
 
   loadData = () => {
